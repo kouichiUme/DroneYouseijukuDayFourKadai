@@ -19,9 +19,6 @@ def boat():
         print(" Waiting for arming...")
         time.sleep(1)
 
-    # モードはGUIDED
-    vehicle.mode = VehicleMode("GUIDED")
-
     # 目標の緯度・経度、高度を設定する
     # https://maps.gsi.go.jp/#8/-35.3574950/149.1701826/&base=std&ls=std&disp=1&vs=c1j0h0k0l0u0t0z0r0s0m0f1
     aLocation = LocationGlobalRelative(35.879768, 140.348495, 20)
