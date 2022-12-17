@@ -1,5 +1,6 @@
 import time
 import threading
+import autocopter 
 
 class CopterThread(threading.Thread):
 
@@ -9,3 +10,4 @@ class CopterThread(threading.Thread):
     def run(self):
         time.sleep(2)
         print("main copter")
+        autocopter.copter()
