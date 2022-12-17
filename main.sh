@@ -1,5 +1,7 @@
 python autocopter.py &
 python drone_plane.py &
+python drone_plane.py &
+
 
 sim_vehicle.py -v Copter -L Kawachi -i 1
 sim_vehicle.py -v Rover -L Kawachi -i 2
