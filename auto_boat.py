@@ -29,3 +29,4 @@ aLocation = LocationGlobalRelative(35.879768, 140.348495, 20)
 vehicle.simple_goto(aLocation, groundspeed=1000)
 
 
+
