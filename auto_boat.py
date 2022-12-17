@@ -26,6 +26,6 @@ vehicle.mode = VehicleMode("GUIDED")
 aLocation = LocationGlobalRelative(35.879768, 140.348495, 20)
 
 # simple_gotoを実行する
-# vehicle.simple_goto(aLocation, groundspeed=1000, airspeed=
+vehicle.simple_goto(aLocation, groundspeed=1000)
 
 
