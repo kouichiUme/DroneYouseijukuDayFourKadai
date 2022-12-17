@@ -8,3 +8,4 @@ class CopterThread(threading.Thread):
     
     def run(self):
         time.sleep(2)
+        print("main copter")
