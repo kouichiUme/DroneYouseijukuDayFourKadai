@@ -21,7 +21,7 @@ try:
     vehicle.wait_for_mode("GUIDED")
     vehicle.arm()
     time.sleep(1)
-    vehicle.wait_simple_takeoff(10, timeout=20)
+    vehicle.wait_for_mode("TAKEOFF")
     #Home location set 
     point1 = LocationGlobalRelative(-35.878275,149.165218, 20)
     vehicle.simple_goto(point1)
